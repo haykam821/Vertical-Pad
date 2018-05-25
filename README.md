@@ -1,4 +1,4 @@
-# Vertical Pad
+# Vertical Pad [![Build Status](https://travis-ci.com/haykam821/Vertical-Pad.svg?branch=master)](https://travis-ci.com/haykam821/Vertical-Pad)
 
 **Pad the number of lines in a string.**
 
