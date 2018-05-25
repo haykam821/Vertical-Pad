@@ -4,7 +4,7 @@
   "description": "It's dimensionalist to have only left-pad and right-pad. Let's fix that with vertical-pad.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "keywords": [
     "verticalpad",
