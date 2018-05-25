@@ -8,6 +8,7 @@ const verticalPad = require("./index.js");
 
 describe("the function", () => {
 	it("stay the same if padding to 0", () => {
-		assert.strictEqual(testString, verticalPad(testString, 0));
+		assert.strictEqual(testString, verticalPad.top(testString, 0));
+		assert.strictEqual(testString, verticalPad.bottom(testString, 0));
 	});
 });
