@@ -1,8 +1,8 @@
-function padTop(string, lines) {
+function padTop(string, lines = 5) {
 	const needed = lines - string.split("\n").length;
 	return "\n".repeat(needed) + string;
 }
-function padBottom(string, lines) {
+function padBottom(string, lines = 5) {
 	const needed = lines - string.split("\n").length;
 	return string + "\n".repeat(needed);
 }
