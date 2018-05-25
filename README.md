@@ -1,6 +1,6 @@
 # Vertical Pad
 
-> It's dimensionalist to have only left-pad and right-pad. Let's fix that with vertical-pad.
+**Pad the number of lines in a string.**
 
 This module can be used to unify the number of lines in a file, choosing between aligning to the top or bottom.
 

@@ -1,7 +1,7 @@
 {
   "name": "vertical-pad",
   "version": "1.0.0",
-  "description": "It's dimensionalist to have only left-pad and right-pad. Let's fix that with vertical-pad.",
+  "description": "Pad the number of lines in a string.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
