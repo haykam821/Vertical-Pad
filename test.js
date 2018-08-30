@@ -13,7 +13,7 @@ const testLineData = [
 
 const verticalPad = require("./index.js");
 
-for (let testLines = 1; testLines < 11; testLines++) {
+testLineData.forEach((item, testLines) => {
 	const testString = testLineData.slice(0, testLines).join("\n");
 
 	describe(`return values with ${testLines}-line string`, () => {
@@ -26,7 +26,7 @@ for (let testLines = 1; testLines < 11; testLines++) {
 			assert.notStrictEqual(testString, verticalPad.bottom(testString, testLines + 1));
 		});
 	});
-}
+});
 
 const fiveLines = "\n\n\n\n";
 
