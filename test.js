@@ -5,17 +5,10 @@ const assert = chai.assert;
 
 const testLineData = [
 	"Hello, world!",
-	"This is a test.",
-	"It it pretty testy here.",
-
-	"Never gonna give you up",
-	"Never gonna let you down",
-	"Never gonna run around and desert you",
-	"Never gonna make you cry",
-	"Never gonna say goodbye",
-	"Never gonna tell a lie and hurt you",
-
-	"(Please don't make an issue on GitHub because of this)",
+	"Welcome, new galaxy!",
+	"This is\nmulti-line",
+	"This has\nthree\nlines!",
+	"\n\n\n\n\n\n\n\n\n",
 ];
 
 const verticalPad = require("./index.js");
