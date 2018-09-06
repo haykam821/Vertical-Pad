@@ -15,7 +15,7 @@ const verticalPad = require("./index.js");
 
 testLineData.forEach((item, index) => {
 	const testString = item;
-	const testLines = item.split("\n");
+	const testLines = item.split("\n").length;
 
 	describe(`return values with ${testLines}-line string`, () => {
 		it("stay the same if padding to same number of lines", () => {
