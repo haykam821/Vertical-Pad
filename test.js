@@ -11,7 +11,7 @@ const testLineData = [
 	"Wow,\nthat\nis\nmany\nlines!",
 ];
 
-const verticalPad = require("./index.js");
+const verticalPad = require(".");
 
 testLineData.forEach(item => {
 	const testLines = item.split("\n").length;
