@@ -4,6 +4,7 @@
   "description": "Pad the number of lines in a string.",
   "main": "index.js",
   "scripts": {
+		"lint": "eslint \"./**/*.js\"",
     "test": "mocha test.js"
   },
   "keywords": [
