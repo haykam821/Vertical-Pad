@@ -13,18 +13,17 @@ const testLineData = [
 
 const verticalPad = require("./index.js");
 
-testLineData.forEach((item, index) => {
-	const testString = item;
+testLineData.forEach(item => {
 	const testLines = item.split("\n").length;
 
 	describe(`return values with ${testLines}-line string`, () => {
 		it("stay the same if padding to same number of lines", () => {
-			assert.strictEqual(testString, verticalPad.top(testString, testLines));
-			assert.strictEqual(testString, verticalPad.bottom(testString, testLines));
+			assert.strictEqual(item, verticalPad.top(item, testLines));
+			assert.strictEqual(item, verticalPad.bottom(item, testLines));
 		});
 		it("don't stay the same if padding to more lines than string", () => {
-			assert.notStrictEqual(testString, verticalPad.top(testString, testLines + 1));
-			assert.notStrictEqual(testString, verticalPad.bottom(testString, testLines + 1));
+			assert.notStrictEqual(item, verticalPad.top(item, testLines + 1));
+			assert.notStrictEqual(item, verticalPad.bottom(item, testLines + 1));
 		});
 	});
 });
