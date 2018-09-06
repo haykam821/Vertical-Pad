@@ -7,7 +7,7 @@ const testLineData = [
 	"Hello, world!",
 	"Welcome,\nnew galaxy!",
 	"This\nis\nmulti-line",
-	"This\nhas\four\nlines!",
+	"This\nhas\nfour\nlines!",
 	"Wow,\nthat\nis\nmany\nlines!",
 ];
 
