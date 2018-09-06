@@ -1,4 +1,4 @@
-function padTop(string, lines = 5) {
+function top(string, lines = 5) {
 	const needed = lines - string.split("\n").length;
 	if (needed < 0) {
 		// We can't pad it, so let's just keep it the same.
@@ -7,7 +7,7 @@ function padTop(string, lines = 5) {
 		return "\n".repeat(needed) + string;
 	}
 }
-function padBottom(string, lines = 5) {
+function bottom(string, lines = 5) {
 	const needed = lines - string.split("\n").length;
 	if (needed < 0) {
 		// The same thing happens here.
@@ -18,6 +18,6 @@ function padBottom(string, lines = 5) {
 }
 
 module.exports = {
-	bottom: padBottom,
-	top: padTop,
+	bottom,
+	top,
 };
