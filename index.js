@@ -18,6 +18,6 @@ function padBottom(string, lines = 5) {
 }
 
 module.exports = {
-	top: padTop,
 	bottom: padBottom,
+	top: padTop,
 };
