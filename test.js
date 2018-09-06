@@ -13,10 +13,11 @@ const testLineData = [
 
 const verticalPad = require("./index.js");
 
-testLineData.forEach((item, testLines) => {
+testLineData.forEach((item, index) => {
+	const testLines = index + 1;
 	const testString = testLineData.slice(0, testLines).join("\n");
 
-	describe(`return values with ${testLines + 1}-line string`, () => {
+	describe(`return values with ${testLines}-line string`, () => {
 		it("stay the same if padding to same number of lines", () => {
 			assert.strictEqual(testString, verticalPad.top(testString, testLines));
 			assert.strictEqual(testString, verticalPad.bottom(testString, testLines));
