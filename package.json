@@ -21,13 +21,13 @@
 	"license": "MIT",
 	"devDependencies": {
 		"chai": "^4.1.2",
-		"eslint": "^4.19.1",
-		"eslint-config-haykam": "^1.3.0",
+		"eslint": "^5.16.0",
+		"eslint-config-haykam": "^1.7.0",
 		"eslint-plugin-extra-rules": "0.0.0-development",
-		"eslint-plugin-html": "^4.0.5",
-		"eslint-plugin-json": "^1.2.1",
-		"eslint-plugin-markdown": "^1.0.0-beta.6",
-		"eslint-plugin-unicorn": "^5.0.0",
+		"eslint-plugin-html": "^5.0.5",
+		"eslint-plugin-json": "^1.4.0",
+		"eslint-plugin-markdown": "^1.0.0",
+		"eslint-plugin-unicorn": "^9.1.1",
 		"mocha": "^5.2.0"
 	}
 }
